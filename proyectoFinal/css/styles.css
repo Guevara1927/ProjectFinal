@@ -1,0 +1,21 @@
+body{
+    background:no-repeat linear-gradient(whitesmoke, gray);
+    width: 90%;
+    height: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}

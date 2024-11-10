@@ -1,0 +1,162 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    
+}
+
+.titulo-nav img{
+    width: 20%;
+}
+.titulo-nav h1{
+    color: rgb(180, 119, 6);
+}
+
+main{
+    background-color: red;
+    height: 1900px;
+    background: linear-gradient(white, gray);
+    
+    
+}
+
+.holamundo{
+    width: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.carta{
+    margin: 40px;
+    text-align: center;
+}
+
+.carta img{
+    width: auto;
+    border: 1px solid black;
+}
+
+.carta button{
+    padding: 15px;
+    background-color: rgb(60, 227, 60);
+    width: 340px;
+    
+}
+.carta button:hover{
+    padding: 15px;
+    background-color: rgb(12, 117, 12);
+    width: 345px;
+    
+}
+
+.producto{
+    font-size: 30px;
+   
+}
+
+.precio{
+    font-size: 18px;
+   
+}
+
+.titulo-nav{
+    width: 12%;
+    display: flex;
+    gap: 1rem;
+}
+
+.titulo-nav img{
+    width: 230px;
+}
+.titulo-nav h1{
+    font-size: 1.7rem;
+    align-self: center;
+    /* margin-right: 3rem; */
+}
+
+
+
+.imagen-nav img{
+    width: 40px;
+    background-color: rgb(182, 189, 182);
+
+}
+.imagen-nav img:hover{
+    width: 40px;
+    background-color: rgb(92, 96, 92);
+
+}
+
+.boton{ 
+    border: none;
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+    
+}
+.img-buscador:hover{ 
+   background-color: rgb(127, 116, 116);
+   cursor: pointer;
+    
+}
+
+.holamundo img{
+    width: 250px;
+    height: 250px;
+}
+
+.input-nav{
+    align-self: center;
+    display: flex;
+    gap: 1rem;
+    /* margin-bottom: 10px; */
+    
+    
+}
+
+.input-nav1{
+    padding: 7px 30px;
+    border-radius: 7%;
+    margin-left: 45rem;
+    font-size: 17px;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    /* margin-bottom: 10px; */
+    
+}
+
+/* .svg-lupa{
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+
+    
+} */
+
+.img-buscador{
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 2px;
+}
+.img-buscador:hover{
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 2px;
+    /* background-color: green; */
+    /* color: green; */
+}
+
+.carta img:hover{
+     width: 270px;
+     height: 270px;
+     /* cursor: pointer; */
+}
+.carta button:hover{
+     cursor: pointer;
+}
